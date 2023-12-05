@@ -4,19 +4,21 @@
 
 ### Working Files
 1. [ETL_Mini_Project_MJardinico.ipynb](https://github.com/mjardinico/crowdfunding_ETL/commit/77f93b7a276fe4f7a8e75e2254bcc7dd872b3f07)
-2. Data files are located in Resources/ folder
+2. [Data files are located in Resources/ folder](https://github.com/mjardinico/crowdfunding_ETL/tree/main/Resources)
 
 ### Instructions
 1. Create Category and Subcategory DataFrames:
 
-`Extract and transform data from crowdfunding.xlsx to create category and subcategory DataFrames.`
-`The category DataFrame should have category_id and category columns; export as category.csv.`
-`The subcategory DataFrame should have subcategory_id and subcategory columns; export as subcategory.csv.`
+* `Extract and transform data from crowdfunding.xlsx to create category and subcategory DataFrames.`
+* `The category DataFrame should have category_id and category columns; export as [category.csv](https://media.githubusercontent.com/media/mjardinico/crowdfunding_ETL/main/Resources/category.csv).`
+* `The subcategory DataFrame should have subcategory_id and subcategory columns; export as [subcategory.csv](https://media.githubusercontent.com/media/mjardinico/crowdfunding_ETL/main/Resources/subcategory.csv).`
 
 2. Create the Campaign DataFrame:
 
 `Create a campaign DataFrame with multiple specified columns, including ID fields, financial goals, dates, and more.`
 `Export this as campaign.csv.`
+
+![`Campaign Screenshot`](https://github.com/mjardinico/crowdfunding_ETL/blob/main/images/cat_id%26scat_id.png)
 
 3. Create the Contacts DataFrame:
 

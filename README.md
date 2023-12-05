@@ -37,7 +37,7 @@
   - [subcategory.csv](https://media.githubusercontent.com/media/mjardinico/crowdfunding_ETL/main/Resources/subcategory.csv)
 
 `ERD Diagram:`
-  
+
 `Create a table schema for each CSV file, considering data types, keys, and constraints.`
 `Save the schema as crowdfunding_db_schema.sql.`
-`Create a new Postgres database (crowdfunding_db), implement the schema, and import CSV data.``Verify data integrity with SELECT statements.`
+`Create a new Postgres database (crowdfunding_db), implement the schema, and import CSV data.``Verify data integrity with SELECT statements.`ca

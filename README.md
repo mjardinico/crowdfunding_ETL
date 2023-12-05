@@ -10,8 +10,11 @@
 1. Create Category and Subcategory DataFrames:
 
 * `Extract and transform data from crowdfunding.xlsx to create category and subcategory DataFrames.`
-* `The category DataFrame should have category_id and category columns; export as [category.csv](https://media.githubusercontent.com/media/mjardinico/crowdfunding_ETL/main/Resources/category.csv).`
-* `The subcategory DataFrame should have subcategory_id and subcategory columns; export as [subcategory.csv](https://media.githubusercontent.com/media/mjardinico/crowdfunding_ETL/main/Resources/subcategory.csv).`
+* `The category DataFrame should have category_id and category columns; export as category.csv.`
+* `The subcategory DataFrame should have subcategory_id and subcategory columns; export as subcategory.csv.`
+
+[category.csv](https://media.githubusercontent.com/media/mjardinico/crowdfunding_ETL/main/Resources/category.csv)
+[subcategory.csv](https://media.githubusercontent.com/media/mjardinico/crowdfunding_ETL/main/Resources/subcategory.csv)
 
 2. Create the Campaign DataFrame:
 

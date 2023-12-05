@@ -13,15 +13,12 @@
 * `The category DataFrame should have category_id and category columns; export as category.csv.`
 * `The subcategory DataFrame should have subcategory_id and subcategory columns; export as subcategory.csv.`
 
-[category.csv](https://media.githubusercontent.com/media/mjardinico/crowdfunding_ETL/main/Resources/category.csv)
-[subcategory.csv](https://media.githubusercontent.com/media/mjardinico/crowdfunding_ETL/main/Resources/subcategory.csv)
-
 2. Create the Campaign DataFrame:
 
 `Create a campaign DataFrame with multiple specified columns, including ID fields, financial goals, dates, and more.`
 `Export this as campaign.csv.`
 
-![`Campaign Screenshot`](https://github.com/mjardinico/crowdfunding_ETL/blob/main/images/cat_id%26scat_id.png)
+![Campaign Dataframe](https://github.com/mjardinico/crowdfunding_ETL/blob/main/images/cat_id%26scat_id.png)
 
 3. Create the Contacts DataFrame:
 
@@ -29,9 +26,18 @@
 `Tasks include data import, transformation, data splitting, and DataFrame cleaning.`
 `Export the final DataFrame as contacts.csv.`
 
+![Contacts Dataframe](https://github.com/mjardinico/crowdfunding_ETL/blob/main/images/contacts_regex.png)
+
 4. Create the Crowdfunding Database:
 
 `Inspect the four CSV files and sketch an ERD.`
+  - [campaign.csv](https://media.githubusercontent.com/media/mjardinico/crowdfunding_ETL/main/Resources/campaign.csv)
+  - [category.csv](https://media.githubusercontent.com/media/mjardinico/crowdfunding_ETL/main/Resources/category.csv)
+  - [contacts.csv](https://media.githubusercontent.com/media/mjardinico/crowdfunding_ETL/main/Resources/contacts.csv)
+  - [subcategory.csv](https://media.githubusercontent.com/media/mjardinico/crowdfunding_ETL/main/Resources/subcategory.csv)
+
+`ERD Diagram:`
+  
 `Create a table schema for each CSV file, considering data types, keys, and constraints.`
 `Save the schema as crowdfunding_db_schema.sql.`
 `Create a new Postgres database (crowdfunding_db), implement the schema, and import CSV data.``Verify data integrity with SELECT statements.`
